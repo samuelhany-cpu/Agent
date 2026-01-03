@@ -1,0 +1,8 @@
+{
+  "type":"object",
+  "properties": {
+    "query": { "type": "string", "description": "SKU/ID or product name text to search for" },
+    "limit": { "type": "number", "description": "Max results to return", "default": 3 }
+  },
+  "required": ["query"]
+}
